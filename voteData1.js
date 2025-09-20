@@ -1,6 +1,6 @@
 // Resolution 1 vote data
 const voteData = [
-  { country: "Albania", status: "Can't Vote" },
+  { country: "Albania", status: "Waiting for Vote" },
   { country: "Türkyie", status: "Waiting for Vote" },
   { country: "Bosnia & Herzegovina", status: "Waiting for Vote" },
   { country: "Slovenia", status: "Waiting for Vote" },
@@ -13,3 +13,4 @@ const voteData = [
   { country: "Montenegro", status: "Waiting for Vote" },
   { country: "Croatia", status: "Waiting for Vote" }
 ];
+
