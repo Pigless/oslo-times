@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Session 20.09.2025 - Oslo Times</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <a href="index.html" id="logo">
+      <img src="logo.png" alt="Oslo Times Logo" />
+    </a>
+    <h1>Balkan Summit</h1>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <h2>Welcome to this Summit</h2>
+    <p>Here you can view the voting status of Balkan countries for the current resolution.</p>
+
+    <div id="chartContainer">
+      <canvas id="voteChart"></canvas>
+    </div>
+  </main>
+
+  <!-- VOTE CHART SCRIPT -->
+  <script src="Votes/20.09.2025/voteData1.js"></script>
+  <script src="Votes/chartRenderer.js"></script>
+</body>
+</html>
